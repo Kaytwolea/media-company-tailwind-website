@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+      Besnik
+    </title>
+    <meta name="description" content="Grow your social media presence....." />
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="icons/site.webmanifest">
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+    <link rel="stylesheet" href="asset/css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lekton:regular,italic,700" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    
+    <!--Replace with your tailwind.css once created-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
+    <!-- Define your gradient here - use online tools to find a gradient matching your branding-->
+    <style>
+      
+    </style>
+  </head>
+  <body class="leading-normal tracking-normal text-white bg-white" style="font-family: 'poppins', inter, lekton;">
+    <!--Nav-->
+    <nav id="header" class="fixed w-full z-30 top-0 text-white  gradient" data-aos="fade" data-aos-delay="250">
+      <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
+        <div class="pl-4 flex items-center">
+          <a data-aos="swipe-up" data-aos-delay="300" class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+
+            Besnik.
+          </a>
+        </div>
+        <div class="block lg:hidden pr-4">
+          <button id="nav-toggle" class="flex items-center p-1 text-pink-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+            <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          </button>
+        </div>
+        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
+          <ul class="list-reset lg:flex justify-end flex-1 items-center">
+            <li class="mr-3">
+              <a class="inline-block py-2 px-4 text-gray-700 font-semibold no-underline" href="#" id="text">Solutions</a>
+            </li>
+            <li class="mr-3">
+              <a id="text" class="inline-block text-gray-700 font-semibold no-underline hover:text-black-800 hover:text-underline py-2 px-4" href="#about">Plans</a>
+            </li>
+            <li class="mr-3">
+              <a id="text" class="inline-block font-semibold text-gray-700 no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#services">Resource</a>
+            </li>
+            <li class="mr-3">
+              <a id="text" class="inline-block font-semibold text-gray-700 no-underline hover:text-black hover:text-underline py-2 px-4" href="#pricing">Blog</a>
+            </li>
+          </ul>
+          <button
+            id="navAction"
+            class="mx-auto lg:mx-0 hover:underline bg-white  gradienttext-gray-800 rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+          >
+            Request Demo <i class="fa fa-arrow-right border-rounded"></i>
+          </button>
+        </div>
+      </div>
+      <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
+    </nav>
+    <!--Hero-->
+    <div class="pt-24 gradient h-auto" data-aos="swipe-up" data-aos-delay="500">
+      <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+        <!--Left Col-->
+        <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
+          <!-- <p class="uppercase tracking-loose w-full"></p> -->
+          <h1 class="my-4 text-5xl white font-semibold font-poppins leading-tight head">
+            Tell a  better brand story
+          </h1>
+          <p class="leading-normal text-2xl mb-8 font-inter">
+            Automate the way you search through hashtags and suggested profiles to find results 100x faster.
+          </p>
+          <button class="mx-auto lg:mx-0 hover:underline bg-black demo text-white font-inter rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+            Request demo <i class="fa fa-arrow-right border-rounded"></i>
+          </button>
+        </div>
+        <!--Right Col-->
+        <div class="w-full md:w-3/5 py-6 text-right">
+          <img class="w-full md:w-4/5 z-50 h-96" src="asset/img/hero.png" />
+        </div>
+      </div>
+    </div>
+    <!-- <div class="mt-12 lg:-mt-24"> -->
+<section class="w-full bg-white pt-6">
+  <h2 class="text-black text-3xl font-lato text-center">
+    Some of our trusted clients
+  </h2>
+  <div class="flex flex-col w-full sm:flex-row justify-evenly pt-12 my-12 sm:my-4 md:justify-evenly">
+   
+    <img src="asset/img/walmart.png" class="h-8 w-15">
+    <img src="asset/img/buzfeed.png" class="h-6 w-15 mt-4 sm:mt-0">
+    <img src="asset/img/chase.png" class="h-6 w-15 mt-4 sm:mt-0">
+    <img src="asset/img/google.png" class="h-6 w-15 mt-4 sm:mt-0">
+    <img src="asset/img/osana.png" class="h-6 w-15 mt-4 sm:mt-0">
+    <img src="asset/img/tog.png" class="h-6 w-15 mt-4 sm:mt-0">
+    </div>
+</section>
+  
+    <section class="bg-white border-b py-8 items-center" id="about">
+      <div class="container h-12 bg black">
+
+      </div>
+        <h1 class="w-full my-2 text-5xl leading-tight font-poppins text-center text-black mt-12">
+          Solutions for Every Need
+        </h1>
+        <p class="w-full text-2xl leading-tight font-inter text-center text-gray-700">
+          Join thousands of marketers and entrepreneurs for a 2-day even at<br/> the forefront of social commerce.
+        </p>
+        <div class="w-full mb-4">
+          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+        </div>
+        <div class="flex flex-wrap justify-center">
+          <div class="w-5/6 sm:w-1/2 p-6">
+            <h2 class="text-1xl font-inter feature text-uppercase">INFLUENCER</h2>
+            <h3 class="text-3xl text-black font-poppins font-semibold leading-none mt-3">
+              Influencer marketing
+              </h3>
+              <p class="create font-inter text-base mt-3 mb-5">
+                Create infinite pieces of content with our influencer product. Build streamline manage large-scale influencer programs.
+              </p>
+              <a href="#" class="font-inter learn text-xl pt-3">Learn more <i class="fa fa-arrow-right border-rounded"></i> </a>
+          </div>
+          <img class="h-65 w-84 ml-0" src="asset/img/features.png">
+        </div>
+        <div class="flex flex-wrap justify-center">
+          <img class="h-65 w-84 ml-0" src="asset/img/profile.png">
+          <div class="w-5/6 sm:w-1/2 p-6">
+            <h2 class="text-1xl font-inter community text-uppercase">COMMUNITY</h2>
+            <h3 class="text-3xl text-black font-semibold font-poppins leading-none mt-3">
+              Community marketing
+              </h3>
+              <p class="create font-inter text-base mt-3 mb-5">
+                Bring your relationships to new heights <br/>with our community product. Discover your biggest enthusiasts.
+              </p>
+              <a href="#" class="font-inter learn text-xl pt-3">Learn more</a>
+        </div>
+      </div>
+      </div>
+ 
+    </section>
+    <section id="services" class="bg-white h-auto ">
+      <div class="flex flex-wrap justify-center">
+        <div class="w-5/6 sm:w-1/2 p-6">
+          <h2 class="text-1xl font-inter feature text-uppercase">SERVICES</h2>
+          <h3 class="text-3xl text-black font-semibold leading-none mt-3">
+            Managed services
+            </h3>
+            <p class="create font-inter text-xl mt-3 mb-5">
+              Our full-service solution lets our experts do the heavy lifting to optimize your community for brand building and storytelling.
+            </p>
+            <a href="#" class="font-inter learn text-xl pt-3">Learn more</a>
+            </div>
+            <img class="h-65 w-84 ml-0" src="asset/img/card.png">
+    </section>
+     <section id="count" class="w-full h-auto count">
+        <h2 class="text-3xl text-white text-center font-semibold font-poppins pt-6">Search through more than 11 million<br/> social media profiles </h2>
+        <p class="text-xl text-gray-400 text-center font=poppins pt-2">Heepsy's search filters help you find exactly what you are looking for, and <br/> our influencer report provide you with the metrics</p>
+        <div class="flex justify-evenly flex-wrap pt-10 pd-8">
+          <div>
+            <span data-purecounter-start="0" data-purecounter-end="2260" data-purecounter-duration="1" class="purecounter font-bold text-5xl font-poppins"></span>
+            <p class="font-poppins pb-8">Satisfied brands</p>
+          </div>
+          <div>
+            <span data-purecounter-start="0" data-purecounter-end="1324" data-purecounter-duration="1" class="purecounter font-bold text-5xl font-poppins"></span>
+            <p class="font-poppins pb-8">Satisfied clients</p>
+          </div>
+          <div>
+            <span data-purecounter-start="0" data-purecounter-end="3452" data-purecounter-duration="1" class="purecounter font-bold text-5xl font-poppins"></span>
+            <p class="font-poppins pb-8">Sponsored</p>
+          </div>
+          <div>
+            <span data-purecounter-start="0" data-purecounter-end="9786" data-purecounter-duration="1" class="purecounter font-bold text-5xl font-poppins"></span>
+            <p class="font-poppins pb-8">Completed</p>
+          </div>
+        </div>
+     </section>
+
+    </section>
+    <section id="clients">
+      <div class="container mx-auto px-2 pt-4 pb-12 text-gray-800">
+        <h1 class="w-full my-2 text-5xl font-semibold leading-tight font-poppins text-center text-black mt-12">
+          Solutions for Every Need
+        </h1>
+        <p class="w-full text-xl leading-tight font-inter text-center text-gray-700">
+          Join thousands of marketers and entrepreneurs for a 2-day even at<br/> the forefront of social commerce.
+        </p>
+        </div>
+        <div class="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4 md:justify-evenly">
+          <div class="h-96 w-96 bg-gray-100">
+            <img src="asset/img/image01.png" class="h-72 w-96">
+            <div class="h-24 w-72 bg-white">
+              <h3 class="text-xl font-poppins font-semibold text-left pl-6 pt-2 rebel">
+                Rebel Clothing
+              </h3>
+              <div class="flex justify-evenly overflow-hidden">
+                <div class="block">
+                  <h2 class="text-2xl text-black font-semibold font-poppins">6.7 M</h2>
+                <p class="text-base font-bold text-gray-300">Followers reach</p>
+                </div>
+                <div class="block">
+                  <h2 class="text-2xl text-black font-semibold font-poppins">56.2 K</h2>
+                <p class="text-base font-bold text-gray-300">Engagement</p>
+                </div>
+              </div>
+              <a class="text-base ling pl-4" href="#">Learn more</a>
+            </div>
+          </div>
+          <div class="h-96 w-96 bg-gray-300 mt-6 sm:mt-0">
+            <img src="asset/img/image03.png" class="h-72 w-96">
+            <div class="h-24 w-72 bg-white">
+              <h3 class="text-xl font-poppins font-semibold text-left pl-6 pt-2 rebel">
+                Rebel Clothing
+              </h3>
+              <div class="flex justify-evenly overflow-hidden">
+                <div class="block">
+                  <h2 class="text-2xl text-black font-semibold font-poppins">6.7 M</h2>
+                <p class="text-base font-bold text-gray-300">Followers reach</p>
+                </div>
+                <div class="block">
+                  <h2 class="text-2xl text-black font-semibold font-poppins">56.2 K</h2>
+                <p class="text-base font-bold text-gray-300">Engagement</p>
+                </div>
+              </div>
+              <a class="text-base ling pl-4" href="#">Learn more</a>
+            </div>
+          </div>
+          <div class="h-96 w-96 bg-gray-100 mt-6 sm:mt-0">
+            <img src="asset/img/image02.png" class="h-72 w-96">
+            <div class="h-24 w-72 bg-white">
+              <h3 class="text-xl font-poppins font-semibold text-left pl-6 pt-2 rebel">
+                Rebel Clothing
+              </h3>
+              <div class="flex justify-evenly overflow-hidden">
+                <div class="block">
+                  <h2 class="text-2xl text-black font-semibold font-poppins">6.7 M</h2>
+                <p class="text-base font-semibold text-gray-300">Followers reach</p>
+                </div>
+                <div class="block">
+                  <h2 class="text-2xl text-black font-semibold font-poppins">56.2 K</h2>
+                <p class="text-base font-bold text-gray-300">Engagement</p>
+                </div>
+              </div>
+              <a class="text-base ling pl-4" href="#">Learn more</a>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section id="happy">
+      <div class="container mx-auto px-2 pt-4 pb-12 text-gray-800">
+        <h1 class="w-full my-2 text-5xl font-semibold leading-tight font-poppins text-center text-black mt-12">
+          Happy Clients
+        </h1>
+        <p class="w-full text-xl leading-tight font-inter text-center text-gray-700">
+          The Marketing Accountability Standards Board (MASB) endorses the <br/> definitions, purposes, and constructs of classes
+        </p>
+        <div class="flex flex-wrap justify-center bg-gray-100">
+          <div class="w-5/6 sm:w-1/2 p-6">
+           <img src="asset/img/instagram.png" class="w-24 h-24">
+           <h3 class="text-2xl text-gray-600 italic font-inter">Not weekly or monthly like other sites out there. This ensures that we offer prospective homebuyers and investors with the freshest- hottest deals on the Internet.</h3><br/>
+           <h4 class="font-lato text-4xl font-semibold">
+            Rohwan Smith
+           </h4>
+           <p class="text-xl font-inter text-gray-800">
+            CEO, Foreclosure
+           </p>
+        </div>
+          <img class="h-64 w-84 pt-12 pb-0" src="asset/img/person.png">
+        </div>
+    </section>
+
+    <section class="container mx-auto text-center py-6 mb-12 gradient">
+      <h1 class="w-full my-2 text-5xl font-poppins font-semibold leading-tight text-center text-white">
+        Subscribe to Our Newsletter
+      </h1>
+      <!-- <div class="w-full mb-4">
+        <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
+      </div> -->
+      <h3 class="my-4 text-2xl font-inter text-gray-300 leading-tight">
+        Join thousands of marketers and entrepreneurs for a 2-day event at <br/>the forefront of social commerce.
+      </h3>
+      <input type="email" id="email" placeholder="Enter Your Email" class="bg-gray-50 rounded border-4-solid-black  rounded-full w-1/2 h-12"></input><br/>
+      <button onclick="sub()" class="mx-auto sub lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+        Submit <i class="fa fa-arrow-right"></i>
+      </button>
+    </section>
+    <!--Footer-->
+    <footer class="bg-white">
+      <div class="container mx-auto px-8">
+        <div class="w-full flex flex-col md:flex-row py-6">
+          <div class="flex-1 mb-6 text-black">
+            <a class="text-black font-lekton no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+              Besnik.
+            </a>
+          </div>
+          <div class="flex-1">
+            <p class="uppercase text-gray-500 md:mb-6">Solutions</p>
+           
+          </div>
+          <div class="flex-1">
+            <p class="uppercase text-gray-500 md:mb-6">Plans</p>
+          </div>
+          <div class="flex-1">
+            <p class="uppercase text-gray-500 md:mb-6">Resource</p>
+        
+          </div>
+          <div class="flex-1">
+            <p class="uppercase text-gray-500 md:mb-6">Blog</p>
+          
+          </div>
+          <div class="flex-1 flex space-x-7">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fac fa-instagram"></i>
+            <i class="fac fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+      <a href="https://wa.me/2349036228765" class="text-gray-500 align-center">Created by Kaytwolea</a>
+    </footer>
+    <button class="totop" id="myBtn" onclick="toTop()"><i class="fa fa-arrow-up"></i></button>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+ 
+    <script src="asset/js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="asset/pure/purecounter.js"></script>
+    <script>
+      AOS.init();
+
+      var scrollpos = window.scrollY;
+      var header = document.getElementById("header");
+      let text = document.getElementById("text");
+      var navcontent = document.getElementById("nav-content");
+      var navaction = document.getElementById("navAction");
+      var brandname = document.getElementById("brandname");
+      var toToggle = document.querySelectorAll(".toggleColour");
+
+
+      document.addEventListener("scroll", function () {
+        /*Apply classes for slide in bar*/
+        scrollpos = window.scrollY;
+
+        if (scrollpos > 10) {
+          header.classList.add("bg-white");
+          navaction.classList.remove("bg-white");
+          navaction.classList.add("gradient");
+          navaction.classList.remove("text-gray-800");
+          navaction.classList.add("text-white");
+          //Use to switch toggleColour colours
+          for (var i = 0; i < toToggle.length; i++) {
+            toToggle[i].classList.add("text-gray-800");
+            toToggle[i].classList.remove("text-white");
+          }
+          header.classList.add("shadow");
+          navcontent.classList.remove("bg-gray-100");
+          navcontent.classList.add("bg-white");
+          navcontent.classList.remove("text-white");
+          navcontent.classList.add("text-black");
+        } else {
+          header.classList.remove("bg-white");
+          navaction.classList.remove("gradient");
+          navaction.classList.add("bg-white");
+          navaction.classList.remove("text-white");
+          navaction.classList.add("text-gray-800");
+          //Use to switch toggleColour colours
+          for (var i = 0; i < toToggle.length; i++) {
+            toToggle[i].classList.add("text-white");
+            toToggle[i].classList.remove("text-gray-800");
+          }
+
+          header.classList.remove("shadow");
+          navcontent.classList.remove("bg-white");
+          navcontent.classList.add("bg-gray-100");
+        }
+      });
+
+
+  </script>
+    <script>
+      /*Toggle dropdown list*/
+      /*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
+
+      var navMenuDiv = document.getElementById("nav-content");
+      var navMenu = document.getElementById("nav-toggle");
+
+      document.onclick = check;
+      function check(e) {
+        var target = (e && e.target) || (event && event.srcElement);
+
+        //Nav Menu
+        if (!checkParent(target, navMenuDiv)) {
+          // click NOT on the menu
+          if (checkParent(target, navMenu)) {
+            // click on the link
+            if (navMenuDiv.classList.contains("hidden")) {
+              navMenuDiv.classList.remove("hidden");
+            } else {
+              navMenuDiv.classList.add("hidden");
+            }
+          } else {
+            // click both outside link and outside menu, hide menu
+            navMenuDiv.classList.add("hidden");
+          }
+        }
+      }
+      function checkParent(t, elm) {
+        while (t.parentNode) {
+          if (t == elm) {
+            return true;
+          }
+          t = t.parentNode;
+        }
+        return false;
+      }
+    </script>
+  </body>
+</html>
